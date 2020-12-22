@@ -6,8 +6,9 @@ public class Enemy : MonoBehaviour
 {
     public int hp = 1;
     public float speed = 1f;
-    public int nextMove;
-
+    public int attack = 1;
+    public int score = 100;
+    int nextMove = 1;
     Rigidbody2D rigid;
     SpriteRenderer spriteRenderer;
 
